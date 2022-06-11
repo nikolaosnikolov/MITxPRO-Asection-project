@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    background-color: var(--bs-gray-300) !important;
+    grid-column: 1/11
+}
+.nav-item {
+    margin-left: 1rem;
+}
+.navbar-brand {
+    margin-left: 0.3rem;
+}
+#main-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+#yt-video {
+    grid-column: 4/8;
+    grid-row: 3/8;
+    width: 100%;
+    height: 100%;
+}
+#contact-data {
+    grid-column: 4/8;
+    grid-row: 3/9;
+}
+#email, #linkedIn, #phone {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+}
+#logo {
+    flex-basis: 35%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#linkRef {
+    flex-basis: 65%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#content {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline darkblue;
+    color: black;
+}
