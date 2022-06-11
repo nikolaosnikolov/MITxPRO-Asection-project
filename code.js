@@ -3,20 +3,20 @@ const home = document.getElementById('home-script')
 const info = document.getElementById('info-script')
 const projects = document.getElementById('projects-script')
 const contact = document.getElementById('contact-script')
+const contactForm = document.getElementById('contact-data')
+const contactWelcome = document.getElementById('welcome-contact')
+
+contactForm.style.setProperty('display', 'none')
+contactWelcome.style.setProperty('display', 'none')
 
 home.onclick = () => {
-    const youtubeVideo = document.createElement('iframe')
-    youtubeVideo.src = 'https://www.youtube.com/embed/tgbNymZ7vqY'
-    youtubeVideo.setAttribute('id', 'yt-video')
-    mainContainer.appendChild(youtubeVideo)
-    
-    console.log('hello world')
+    // const youtubeVideo = document.createElement('iframe')
+    // youtubeVideo.src = 'https://www.youtube.com/embed/qRPMAyQxrFY'
+    // youtubeVideo.setAttribute('id', 'yt-video')
+    // mainContainer.appendChild(youtubeVideo)
 }
 
 contact.onclick = () => {
-    //const welcomeDiv = document.createElement('div')
-
-    //welcomeDiv.textContent = 'In this table you can find the best ways to get in touch with me'
-    
-    //mainContainer.appendChild(welcomeDiv)
+    contactForm.style.removeProperty('display')
+    contactWelcome.style.removeProperty('display')
 }

@@ -1,17 +1,22 @@
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
 }
+
 .navbar {
     background-color: var(--bs-gray-300) !important;
     grid-column: 1/11
 }
+
 .nav-item {
     margin-left: 1rem;
 }
+
 .navbar-brand {
     margin-left: 0.3rem;
 }
+
 #main-container {
     height: 100%;
     width: 100%;
@@ -19,42 +24,151 @@ html, body {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
 }
+
 #yt-video {
     grid-column: 4/8;
     grid-row: 3/8;
     width: 100%;
     height: 100%;
 }
+
 #contact-data {
     grid-column: 4/8;
     grid-row: 3/9;
+    border: 1px solid black;
+    border-radius: 7px;
 }
-#email, #linkedIn, #phone {
+
+#email,
+#linkedIn,
+#phone {
     width: 100%;
     height: 33%;
     display: flex;
     flex-direction: row;
 }
+
 #logo {
-    flex-basis: 35%;
+    flex-basis: 30%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
+
 #linkRef {
-    flex-basis: 65%;
+    flex-basis: 60%;
     justify-content: center;
     align-items: center;
     display: flex;
+    padding: 2rem;
+    flex-direction: column;
 }
+
 #content {
     cursor: pointer;
+    width: 100%;
+    line-height: 3rem;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 7px;
 }
+
+#content:hover {
+    border-color: black;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
+
 a:hover {
-    text-decoration: underline darkblue;
     color: black;
+}
+
+#separator {
+    border: solid 1px red;
+    height: 45%;
+    margin: 0 2rem;
+}
+
+#sep-container {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 2rem;
+    height: 2rem;
+}
+
+#mes-tran {
+    font-size: 8px;
+    text-align: right;
+    width: 100%;
+    margin-top: 3px;
+}
+
+#welcome-contact {
+    grid-column: 3/9;
+    grid-row: 2/3;
+    text-align: center;
+    margin-top: 1rem;
+}
+#home-start {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+#video-introduction {
+    height: 100%;
+    flex-basis: 50%;
+}
+#see-video {
+    text-align: center;
+    height: 18%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#video-presentation {
+    height: 82%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#yt-video {
+    width: 90%;
+    height: 74%;
+}
+#biography {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-basis: 50%;
+}
+#see-biography {
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+#image {
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#my-face {
+    height: 15rem;
+    width: 10rem;
+    border-radius: 6%;
 }
