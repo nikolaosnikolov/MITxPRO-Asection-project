@@ -3,7 +3,9 @@ body {
     height: 100%;
     width: 100%;
 }
-
+#home-script, #info-script, #projects-script, #contact-script {
+    cursor: pointer;
+}
 .navbar {
     background-color: var(--bs-gray-300) !important;
     grid-column: 1/11
@@ -33,10 +35,9 @@ body {
 }
 
 #contact-data {
-    grid-column: 4/8;
-    grid-row: 3/9;
     border: 1px solid black;
     border-radius: 7px;
+    margin-top: 2rem;
 }
 
 #email,
@@ -112,17 +113,16 @@ img {
 }
 
 #welcome-contact {
-    grid-column: 3/9;
-    grid-row: 2/3;
     text-align: center;
     margin-top: 1rem;
 }
-#home-start {
+#bio-start {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    position: absolute;
+    grid-column: 1/11;
+    grid-row: 2/11;
 }
 #video-introduction {
     height: 100%;
@@ -137,7 +137,7 @@ img {
     align-items: end;
 }
 #video-presentation {
-    height: 82%;
+    height: 100%;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -171,4 +171,75 @@ img {
     height: 15rem;
     width: 10rem;
     border-radius: 6%;
+}
+#bio-presentation {
+    height: auto;
+    padding: 1rem 2rem;
+    margin: 4rem;
+    border: 1px solid black;
+}
+#job {
+    margin-top: 1.3rem;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+}
+#my-name {
+    font-weight: bolder;
+    font-size: 17px;
+}
+#real-text {
+    margin-top: 1.3rem;
+}
+#contact-me {
+    font-style: italic;
+}
+#visit-linkedin:hover, #visit-contact:hover {
+    text-decoration: underline burlywood;
+    font-weight: bold;
+    cursor: pointer;
+}
+#contact-start {
+    grid-column: 4/8;
+    grid-row: 2/11;
+}
+#home-start {
+    grid-column: 1/11;
+    grid-row: 3/11;
+    display: flex;
+    flex-direction: row;
+}
+#video-present {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#general {
+    justify-content: center;
+    flex-basis: 50%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+#contact-button {
+    background-color: bisque;
+    text-align: center;
+    width: 9rem;
+    height: 3rem;
+    line-height: 2.7rem;
+    border-radius: 6px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    cursor: pointer;
+}
+#contact-button:hover {
+    border: 1px solid black;
+}
+#feel-impressed {
+    text-align: center;
+    font-weight: bold;
 }
