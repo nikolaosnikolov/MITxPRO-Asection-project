@@ -279,10 +279,13 @@ img {
 #project7, #project8, #project9 {
     flex-basis: 33%;
     padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #real-project {
     height: 100%;
-    width: 100%;
+    width: 80%;
     border: 1px solid black;
     border-radius: 10px;
     display: flex;
@@ -297,4 +300,8 @@ img {
 }
 #project-features {
     flex-basis: 60%;
+}
+#pr7-image, #pr8-image, #pr9-image{
+    height: 100%;
+    width: 100%;
 }
