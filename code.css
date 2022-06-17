@@ -300,8 +300,34 @@ img {
 }
 #project-features {
     flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
 }
 #pr7-image, #pr8-image, #pr9-image{
     height: 100%;
     width: 100%;
+}
+#description {
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: row;
+}
+#lisence {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: row;
+}
+#link-click {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: row;
+}
+#check-button {
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#texting {
+    flex-basis: 90%;
 }
