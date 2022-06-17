@@ -261,3 +261,40 @@ img {
     justify-content: center;
     margin-top: 2rem;
 }
+#projects-start {
+    grid-column: 1/11;
+    grid-row: 2/11;
+    display: flex;
+    flex-direction: column;
+}
+#projects-info {
+    flex-basis: 20%;
+}
+#projects-container {
+    height: 100%;
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: row;
+}
+#project7, #project8, #project9 {
+    flex-basis: 33%;
+    padding: 5rem;
+}
+#real-project {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#project-title {
+    flex-basis: 10%;
+    text-align: center;
+}
+#project-image {
+    flex-basis: 30%;
+}
+#project-features {
+    flex-basis: 60%;
+}
