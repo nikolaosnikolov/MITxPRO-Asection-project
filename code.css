@@ -119,8 +119,6 @@ img {
 #bio-start {
     height: 100%;
     width: 100%;
-    display: flex;
-    flex-direction: row;
     grid-column: 1/11;
     grid-row: 2/11;
 }
@@ -151,7 +149,6 @@ img {
     display: flex;
     flex-direction: column;
     height: 100%;
-    flex-basis: 50%;
 }
 #see-biography {
     height: 18%;
@@ -175,8 +172,11 @@ img {
 #bio-presentation {
     height: auto;
     padding: 1rem 2rem;
-    margin: 4rem;
-    border: 1px solid black;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #job {
     margin-top: 1.3rem;
@@ -242,4 +242,22 @@ img {
 #feel-impressed {
     text-align: center;
     font-weight: bold;
+}
+#starting-data {
+    display: flex;
+    flex-direction: column;
+}
+#personal-photo {
+    height: 22rem;
+    width: 13rem;
+    border: 3px solid #555;
+    border-radius: 70px;
+}
+#fdrow1 {
+    text-align: center;
+}
+#fdrow2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
