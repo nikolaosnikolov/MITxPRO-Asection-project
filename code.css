@@ -269,6 +269,9 @@ img {
 }
 #projects-info {
     flex-basis: 20%;
+    text-align: center;
+    top: 2rem;
+    position: relative;
 }
 #projects-container {
     height: 100%;
@@ -278,18 +281,20 @@ img {
 }
 #project7, #project8, #project9 {
     flex-basis: 33%;
-    padding: 5rem;
+    padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
-#real-project {
+#real-project7, #real-project8, #real-project9 {
     height: 100%;
     width: 80%;
     border: 1px solid black;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    background-color: cadetblue;
 }
 #project-title {
     flex-basis: 10%;
@@ -307,18 +312,14 @@ img {
     height: 100%;
     width: 100%;
 }
-#description {
-    flex-basis: 60%;
-    display: flex;
-    flex-direction: row;
-}
 #lisence {
-    flex-basis: 20%;
+    flex-basis: 50%;
     display: flex;
     flex-direction: row;
+    font-size: 0.8rem;
 }
 #link-click {
-    flex-basis: 20%;
+    flex-basis: 50%;
     display: flex;
     flex-direction: row;
 }
@@ -330,4 +331,8 @@ img {
 }
 #texting {
     flex-basis: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
 }
