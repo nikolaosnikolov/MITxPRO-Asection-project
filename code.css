@@ -179,15 +179,13 @@ img {
     align-items: center;
 }
 #job {
-    margin-top: 1.3rem;
+    margin-top: 0.3rem;
     color: gray;
-    font-weight: bold;
-    font-size: 14px;
-    font-style: italic;
+    font-size: 12px;
 }
 #my-name {
     font-weight: bolder;
-    font-size: 17px;
+    font-size: 16px;
 }
 #real-text {
     margin-top: 1.3rem;
@@ -248,10 +246,10 @@ img {
     flex-direction: column;
 }
 #personal-photo {
-    height: 22rem;
+    height: auto;
     width: 13rem;
-    border: 3px solid #555;
-    border-radius: 70px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 #fdrow1 {
     text-align: center;
