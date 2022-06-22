@@ -3,9 +3,14 @@ body {
     height: 100%;
     width: 100%;
 }
-#home-script, #info-script, #projects-script, #contact-script {
+
+#home-script,
+#info-script,
+#projects-script,
+#contact-script {
     cursor: pointer;
 }
+
 .navbar {
     background-color: var(--bs-gray-300) !important;
     grid-column: 1/11
@@ -117,16 +122,19 @@ img {
     text-align: center;
     margin-top: 1rem;
 }
+
 #bio-start {
     height: 100%;
     width: 100%;
     grid-column: 1/11;
     grid-row: 2/11;
 }
+
 #video-introduction {
     height: 100%;
     flex-basis: 50%;
 }
+
 #see-video {
     text-align: center;
     height: 18%;
@@ -135,6 +143,7 @@ img {
     justify-content: center;
     align-items: end;
 }
+
 #video-presentation {
     height: 100%;
     width: 100%;
@@ -142,15 +151,18 @@ img {
     align-items: center;
     display: flex;
 }
+
 #yt-video {
     width: 90%;
     height: 74%;
 }
+
 #biography {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
+
 #see-biography {
     height: 18%;
     display: flex;
@@ -158,6 +170,7 @@ img {
     align-items: end;
     text-align: center;
 }
+
 #image {
     height: 45%;
     display: flex;
@@ -165,11 +178,13 @@ img {
     align-items: center;
     margin-top: 1rem;
 }
+
 #my-face {
     height: 15rem;
     width: 10rem;
     border-radius: 6%;
 }
+
 #bio-presentation {
     height: auto;
     padding: 1rem 2rem;
@@ -179,26 +194,33 @@ img {
     justify-content: center;
     align-items: center;
 }
+
 #job {
     margin-top: 0.3rem;
     color: gray;
     font-size: 12px;
 }
+
 #my-name {
     font-weight: bolder;
     font-size: 16px;
 }
+
 #real-text {
     margin-top: 1.3rem;
 }
+
 #contact-me {
     font-style: italic;
 }
-#visit-linkedin:hover, #visit-contact:hover {
+
+#visit-linkedin:hover,
+#visit-contact:hover {
     text-decoration: underline burlywood;
     font-weight: bold;
     cursor: pointer;
 }
+
 #contact-start {
     grid-column: 1/11;
     grid-row: 2/11;
@@ -208,18 +230,21 @@ img {
     justify-content: center;
     align-items: center;
 }
+
 #home-start {
     grid-column: 1/11;
     grid-row: 3/11;
     display: flex;
     flex-direction: row;
 }
+
 #video-present {
     flex-basis: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #general {
     justify-content: center;
     flex-basis: 50%;
@@ -229,6 +254,7 @@ img {
     flex-direction: column;
     row-gap: 2rem;
 }
+
 #contact-button {
     background-color: bisque;
     text-align: center;
@@ -240,52 +266,70 @@ img {
     margin-left: 50%;
     cursor: pointer;
 }
+
 #contact-button:hover {
     border: 1px solid black;
 }
+
 #feel-impressed {
     text-align: center;
     font-weight: bold;
 }
+
 #starting-data {
     display: flex;
     flex-direction: column;
 }
+
 #personal-photo {
     height: auto;
     width: 13rem;
     border: 1px solid black;
     border-radius: 10px;
 }
+
 #fdrow1 {
     text-align: center;
 }
+
 #fdrow2 {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
+
 #projects-start {
     grid-column: 1/11;
     grid-row: 2/11;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
 #projects-container {
     height: 100%;
     flex-basis: 80%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
 }
-#project7, #project8, #project9 {
+
+#project7,
+#project8,
+#project9 {
     flex-basis: 33%;
     padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    width: 70%;
 }
-#real-project7, #real-project8, #real-project9 {
+
+#real-project7,
+#real-project8,
+#real-project9 {
     height: 90%;
     width: 60%;
     border: 1px solid black;
@@ -294,39 +338,51 @@ img {
     flex-direction: column;
     background-color: darkgray;
 }
+
 #project-title {
     flex-basis: 10%;
     text-align: center;
 }
-#project-image-7, #project-image-8, #project-image-9 {
+
+#project-image-7,
+#project-image-8,
+#project-image-9 {
     flex-basis: 30%;
 }
+
 #project-features {
     flex-basis: 60%;
     display: flex;
     flex-direction: column;
 }
-#pr7-image, #pr8-image, #pr9-image{
+
+#pr7-image,
+#pr8-image,
+#pr9-image {
     height: 100%;
     width: 100%;
 }
+
 #lisence {
     flex-basis: 50%;
     display: flex;
     flex-direction: row;
     font-size: 0.8rem;
 }
+
 #link-click {
     flex-basis: 50%;
     display: flex;
     flex-direction: row;
 }
+
 #check-button {
     flex-basis: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #texting {
     flex-basis: 90%;
     display: flex;
@@ -336,70 +392,105 @@ img {
 }
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
     position: relative;
     background-color: #fefefe;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
     width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
-  }
-  
-  /* Add Animation */
-  @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-  }
-  
-  @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-  }
-  
-  /* The Close Button */
-  .close {
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.close {
     color: white;
     float: right;
     font-size: 28px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
-  
-  .modal-header {
+}
+
+.modal-header {
     padding: 2px 16px;
     background-color: cadetblue;
     color: white;
-  }
-  
-  .modal-body {padding: 2px 16px;}
-  
-  .modal-footer {
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
     padding: 10px 16px;
     background-color: cadetblue;
     color: white;
-  }
+}
+
+.my-card-vertical {
+    width: 100%;
+    flex-direction: row;
+}
+
+.my-card-img {
+    height: 13.5rem;
+    width: 24rem;
+}
