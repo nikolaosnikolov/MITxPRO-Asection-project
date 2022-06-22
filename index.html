@@ -13,27 +13,27 @@
 <body>
     <div id="main-container">
         <!-- This is the navbar made by bootstrap -->
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light my-navbar">
             <div class="container-fluid">
-                <a class="navbar-brand">Navbar</a>
+                <a class="navbar-brand" style="font-size: 1.8rem;"><b>Nikos Nikolov</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse my-navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" id="home-script">Home</a>
+                            <a class="nav-link my-nav-link" id="home-script">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="info-script">Bio</a>
+                            <a class="nav-link my-nav-link" id="info-script">Bio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="projects-script">Projects</a>
+                            <a class="nav-link my-nav-link" id="projects-script">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="contact-script">Contact</a>
+                            <a class="nav-link my-nav-link" id="contact-script">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -72,20 +72,30 @@
         </div>
 
         <div id="home-start">
-            <div id="video-present">
-                <iframe id="yt-video" src="https://www.youtube.com/embed/OXxKxpmqoaU"></iframe>
-            </div>
-            <div id="general">
-                <div id="home-welcome">Welcome to the home page of this website. Here you are going to find some of the
-                    most
-                    important projects I have done on MIT xPRO certificate lessons I am taking. These projects are going
-                    to
-                    combine the three most basic ways of web development which are HTML, CSS and JavaScript. I have also
-                    used some kind of ready components from a huge library and of course I am speaking about Bootstrap.
+            <div style="width: 100%;">
+                <div class="my-home-panel" >
+                <img class="my-personal-img" src="./images/nikos.jpg">
                 </div>
-                <div id="feel-impressed">Interested to get in touch with me? Click the button above to see how you can
-                    contact me.</div>
-                <div id="contact-button">Contact me</div>
+                <div id="video-present">
+                    <iframe id="yt-video" src="https://www.youtube.com/embed/OXxKxpmqoaU"></iframe>
+                </div>
+                <div id="general">
+                    <div id="home-welcome">Welcome to the home page of this website. Here you are going to find some of
+                        the
+                        most
+                        important projects I have done on MIT xPRO certificate lessons I am taking. These projects are
+                        going
+                        to
+                        combine the three most basic ways of web development which are HTML, CSS and JavaScript. I have
+                        also
+                        used some kind of ready components from a huge library and of course I am speaking about
+                        Bootstrap.
+                    </div>
+                    <div id="feel-impressed">Interested to get in touch with me? Click the button above to see how you
+                        can
+                        contact me.</div>
+                    <div id="contact-button">Contact me</div>
+                </div>
             </div>
         </div>
 
@@ -96,12 +106,16 @@
                     <div class="card my-card-vertical">
                         <img src="./images/pr7.png" class="card-img-top my-card-img">
                         <div class="card-body">
-                          <h5 class="card-title">PacMen Factory</h5>
-                          <p class="card-text">In this project you can see how PacMen are moving inside the screen corners. They are created by clicking the button that adds PacMen. The movement starts when clicking the button that starts the procedure. When PacMen hit corners they change direction, so no PacMan gets out of page borders.</p>
-                          <a href="https://github.com/nikolaosnikolov/pacmen-factory" target="_blank" class="btn btn-primary"><b>GitHub repository</b></a>
+                            <h5 class="card-title">PacMen Factory</h5>
+                            <p class="card-text">In this project you can see how PacMen are moving inside the screen
+                                corners. They are created by clicking the button that adds PacMen. The movement starts
+                                when clicking the button that starts the procedure. When PacMen hit corners they change
+                                direction, so no PacMan gets out of page borders.</p>
+                            <a href="https://github.com/nikolaosnikolov/pacmen-factory" target="_blank"
+                                class="btn btn-primary"><b>GitHub repository</b></a>
                         </div>
-                      </div>
-<!-- 
+                    </div>
+                    <!-- 
                     <div id="real-project7" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <div id="project-title">PacMen Factory</div>
                         <div id="project-image-7"><img id="pr7-image" src="./images/pr7.png"></div>
@@ -120,15 +134,18 @@
                 <div id="project8">
 
 
-                    
+
                     <div class="card my-card-vertical">
                         <img src="./images/pr8.png" class="card-img-top my-card-img">
                         <div class="card-body">
-                          <h5 class="card-title">Eye Movement</h5>
-                          <p class="card-text">In this project the two eyes that are presented on your webpage are moving in relationship with the movement of your mouse. Wherever you locate your mouse, the eyes are looking to it.</p>
-                          <a href="https://github.com/nikolaosnikolov/eye-movement" target="_blank" class="btn btn-primary"><b>GitHub repository</b></a>
+                            <h5 class="card-title">Eye Movement</h5>
+                            <p class="card-text">In this project the two eyes that are presented on your webpage are
+                                moving in relationship with the movement of your mouse. Wherever you locate your mouse,
+                                the eyes are looking to it.</p>
+                            <a href="https://github.com/nikolaosnikolov/eye-movement" target="_blank"
+                                class="btn btn-primary"><b>GitHub repository</b></a>
                         </div>
-                      </div>
+                    </div>
 
                     <!-- <div id="real-project8" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <div id="project-title">Eye Movement</div>
@@ -148,15 +165,19 @@
                 <div id="project9">
 
 
-                    
+
                     <div class="card my-card-vertical">
                         <img src="./images/pr9.png" class="card-img-top my-card-img">
                         <div class="card-body">
-                          <h5 class="card-title">Real Time Bus Tracker</h5>
-                          <p class="card-text">In this project, by clicking the button that starts the route you are going to see a marker located at every single stop. Also, this stop is written on the header so you understand where the bus is. Moreover, all the data used are taken live by Washington Metropolitan Area Transit.</p>
-                          <a href="https://github.com/nikolaosnikolov/real-time-bus-tracker" target="_blank" class="btn btn-primary"><b>GitHub repository</b></a>
+                            <h5 class="card-title">Real Time Bus Tracker</h5>
+                            <p class="card-text">In this project, by clicking the button that starts the route you are
+                                going to see a marker located at every single stop. Also, this stop is written on the
+                                header so you understand where the bus is. Moreover, all the data used are taken live by
+                                Washington Metropolitan Area Transit.</p>
+                            <a href="https://github.com/nikolaosnikolov/real-time-bus-tracker" target="_blank"
+                                class="btn btn-primary"><b>GitHub repository</b></a>
                         </div>
-                      </div>
+                    </div>
 
                     <!-- <div id="real-project9" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <div id="project-title">Real Time Bus Tracker</div>
@@ -184,17 +205,17 @@
 
             <!-- Modal content -->
             <div class="modal-content">
-              <div class="modal-header">
-                <h2 id="own-modal-title"></h2>
-                <span class="close">&times;</span>
-              </div>
-              <div class="modal-body">
-                <p id="own-modal-body"></p>
-              </div>
-              <div class="modal-footer"></div>
+                <div class="modal-header">
+                    <h2 id="own-modal-title"></h2>
+                    <span class="close">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <p id="own-modal-body"></p>
+                </div>
+                <div class="modal-footer"></div>
             </div>
-          
-          </div>
+
+        </div>
 
 
 
