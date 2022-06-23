@@ -514,11 +514,44 @@ a:hover {
 .my-nav-link:hover {
     color: white;
 }
+
 .my-home-panel {
     height: 34rem;
     width: 100%;
     background-color: #7a8e9f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 .my-personal-img {
-    height: 28rem;
+    height: 85%;
+}
+
+.my-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+}
+
+.my-button-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 1rem;
+    margin-top: 1rem;
+}
+
+.my-contact-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-color-mw {
+    color: rgba(255, 255, 255, 0.75);
 }

@@ -9,6 +9,8 @@ const contactPage = document.getElementById('contact-start')
 const homePage = document.getElementById('home-start')
 const projectsPage = document.getElementById('projects-start')
 const contactButtonAtHome = document.getElementById('contact-button')
+const titleWrapper = document.getElementById('title-wapper')
+const titlePart1 = document.getElementById('title-part-1')
 
 
 
@@ -98,4 +100,9 @@ contactButtonAtHome.onclick = () => {
     contactPage.style.removeProperty('display')
     infoPage.style.setProperty('display', 'none')
     homePage.style.setProperty('display', 'none')
+}
+
+titleWrapper.onmouseover = () => {
+    titlePart1.textContent = 'Always excelling'
+    setTimeout(() => { titlePart1.textContent = 'Αἰὲν ἀριστεύειν' }, 3000)
 }
