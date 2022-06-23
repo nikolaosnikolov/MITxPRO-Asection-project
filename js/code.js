@@ -11,7 +11,10 @@ const projectsPage = document.getElementById('projects-start')
 const contactButtonAtHome = document.getElementById('contact-button')
 const titleWrapper = document.getElementById('title-wapper')
 const titlePart1 = document.getElementById('title-part-1')
-
+const introduction = document.getElementById('intro')
+const biography = document.getElementById('bio')
+const buttonIntro = document.getElementById('my-button-intro')
+const buttonBio = document.getElementById('my-button-bio')
 
 
 // Get the modal
@@ -105,4 +108,12 @@ contactButtonAtHome.onclick = () => {
 titleWrapper.onmouseover = () => {
     titlePart1.textContent = 'Always excelling'
     setTimeout(() => { titlePart1.textContent = 'Αἰὲν ἀριστεύειν' }, 3000)
+}
+
+buttonIntro.onclick = () => {
+    introduction.scrollIntoView()
+}
+
+buttonBio.onclick = () => {
+    biography.scrollIntoView()
 }
