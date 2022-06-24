@@ -16,6 +16,9 @@ const biography = document.getElementById('bio')
 const buttonIntro = document.getElementById('my-button-intro')
 const buttonBio = document.getElementById('my-button-bio')
 
+window.onload = () => {
+    homePage.style.removeProperty('display')
+}
 
 // Get the modal
 const modal = document.getElementById("myModal");

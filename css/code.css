@@ -249,9 +249,9 @@ a:hover {
     padding-left: 3rem;
     padding-right: 3rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     row-gap: 2rem;
-    background-color: rgb(136, 121, 103);
+    background-color: rgb(247, 244, 241);
     height: 50rem;
     width: 100%;
 }
@@ -552,7 +552,7 @@ a:hover {
 }
 
 .my-color-mw {
-    color: rgba(255, 255, 255, 0.75);
+    color: black;
 }
 
 #my-intro-text {
@@ -563,4 +563,37 @@ a:hover {
     flex-direction: column;
     width: 40%;
     margin-left: 10rem;
+}
+
+#my-bio-image {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#my-biography {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    flex-direction: column;
+}
+.my-intro-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+#my-contact-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.my-contact-names {
+    width: 6rem;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 1rem;
 }
