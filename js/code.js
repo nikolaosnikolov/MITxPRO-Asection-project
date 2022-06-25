@@ -102,11 +102,11 @@ projects.onclick = () => {
     homePage.style.setProperty('display', 'none')
 }
 
-contactButtonAtHome.onclick = () => {
-    contactPage.style.removeProperty('display')
-    infoPage.style.setProperty('display', 'none')
-    homePage.style.setProperty('display', 'none')
-}
+// contactButtonAtHome.onclick = () => {
+//     contactPage.style.removeProperty('display')
+//     infoPage.style.setProperty('display', 'none')
+//     homePage.style.setProperty('display', 'none')
+// }
 
 titleWrapper.onmouseover = () => {
     titlePart1.textContent = 'Always excelling'
