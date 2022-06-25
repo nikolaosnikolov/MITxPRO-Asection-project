@@ -388,10 +388,12 @@ a:hover {
     border: none;
     width: 100%;
     flex-direction: row;
+    min-height: 16rem;
+    cursor: auto;
 }
 
 .my-card-img {
-    height: 13.5rem;
+    height: 100%;
     width: 24rem;
     border-radius: 5px;
 }
@@ -415,7 +417,7 @@ a:hover {
 }
 
 .my-home-panel {
-    background: linear-gradient(70deg, #7a8e9f 0%, rgba(122,142,159,0.7) 40%, #7a8e9f 100%);
+    background: linear-gradient(70deg, #7a8e9f 0%, rgba(122, 142, 159, 0.7) 40%, #7a8e9f 100%);
     height: 34rem;
     width: 100%;
     display: flex;
