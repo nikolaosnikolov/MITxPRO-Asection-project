@@ -33,9 +33,9 @@ body {
 }
 
 #yt-video {
-    width: 34rem;
-    height: 20rem;
-    margin-left: 10rem;
+    height: 24rem;
+    width: 45rem;
+    border-radius: 5px;
 }
 
 #contact-data {
@@ -242,18 +242,18 @@ a:hover {
     height: 50rem;
     width: 100%;
     background-color: #e0d8e8;
+    padding: 3rem;
 }
 
 #bio {
     justify-content: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
     display: flex;
     flex-direction: row;
     row-gap: 2rem;
     background-color: rgb(247, 244, 241);
     height: 50rem;
     width: 100%;
+    padding: 3rem;
 }
 
 #contact-button {
@@ -561,13 +561,12 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 40%;
-    margin-left: 10rem;
+    width: 50%;
 }
 
 #my-bio-image {
-    height: 100%;
-    width: 50%;
+    width: 100%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -579,21 +578,50 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: end;
     flex-direction: column;
 }
+
 .my-intro-title {
     font-weight: bold;
     font-size: 2rem;
 }
+
 #my-contact-data {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 .my-contact-names {
     width: 6rem;
     text-align: right;
     font-weight: bold;
     margin-right: 1rem;
+}
+
+#my-bio-img-contacts {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ways-to-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bio-description {
+    margin-top: 2rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+#youtube-video {
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
