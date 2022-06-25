@@ -11,6 +11,18 @@ const introduction = document.getElementById('intro')
 const biography = document.getElementById('bio')
 const buttonIntro = document.getElementById('my-button-intro')
 const buttonBio = document.getElementById('my-button-bio')
+const homeNavBar = document.getElementById('home-navbar')
+const projectsNavBar = document.getElementById('projects-navbar')
+
+homeNavBar.onclick = () => {
+    homeNavBar.style.borderBottom = '2px solid white'
+    projectsNavBar.style.borderBottom = 'none'
+}
+
+projectsNavBar.onclick = () => {
+    projectsNavBar.style.borderBottom = '2px solid white'
+    homeNavBar.style.borderBottom = 'none'
+}
 
 window.onload = () => {
     homePage.style.removeProperty('display')

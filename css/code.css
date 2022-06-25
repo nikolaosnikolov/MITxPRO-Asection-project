@@ -454,7 +454,7 @@ a:hover {
 }
 
 .my-color-mw {
-    color: black;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 #my-intro-text {
