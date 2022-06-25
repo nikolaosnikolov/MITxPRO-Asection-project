@@ -6,14 +6,21 @@ body {
 
 #home-script,
 #info-script,
-#projects-script,
-#contact-script {
+#projects-script {
     cursor: pointer;
 }
 
+#pages {
+    grid-row: 2/11;
+    grid-column: 1/11;
+    height: 100%;
+    width: 100%;
+}
+
 .navbar {
-    background-color: var(--bs-gray-300) !important;
-    grid-column: 1/11
+    /* background-color: var(--bs-gray-300) !important; */
+    grid-column: 1/11;
+    grid-row: 1/2;
 }
 
 .nav-item {
@@ -125,8 +132,6 @@ a:hover {
 #bio-start {
     height: 100%;
     width: 100%;
-    grid-column: 1/11;
-    grid-row: 2/11;
 }
 
 #video-introduction {
@@ -215,19 +220,7 @@ a:hover {
     cursor: pointer;
 }
 
-#contact-start {
-    grid-column: 1/11;
-    grid-row: 2/11;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #home-start {
-    grid-column: 1/11;
-    grid-row: 2/11;
     display: flex;
     flex-direction: row;
     overflow: scroll;
@@ -238,10 +231,9 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: blueviolet;
+    background-color: #eeeae6;
     height: 50rem;
     width: 100%;
-    background-color: #e0d8e8;
     padding: 3rem;
 }
 
@@ -300,20 +292,20 @@ a:hover {
 }
 
 #projects-start {
-    grid-column: 1/11;
-    grid-row: 2/11;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    overflow: scroll;
 }
 
 #projects-container {
-    height: 100%;
-    flex-basis: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #dae0ea;
 }
 
 #project7,
@@ -325,7 +317,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    width: 70%;
+    margin-top: 3rem;
 }
 
 #real-project7,
@@ -392,101 +384,8 @@ a:hover {
     font-size: 1rem;
 }
 
-.modal {
-    display: none;
-    /* Hidden by default */
-    position: fixed;
-    /* Stay in place */
-    z-index: 1;
-    /* Sit on top */
-    padding-top: 100px;
-    /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Full width */
-    height: 100%;
-    /* Full height */
-    overflow: auto;
-    /* Enable scroll if needed */
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.4);
-    /* Black w/ opacity */
-}
-
-/* Modal Content */
-.modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
-}
-
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0
-    }
-
-    to {
-        top: 0;
-        opacity: 1
-    }
-}
-
-@keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0
-    }
-
-    to {
-        top: 0;
-        opacity: 1
-    }
-}
-
-/* The Close Button */
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.modal-header {
-    padding: 2px 16px;
-    background-color: cadetblue;
-    color: white;
-}
-
-.modal-body {
-    padding: 2px 16px;
-}
-
-.modal-footer {
-    padding: 10px 16px;
-    background-color: cadetblue;
-    color: white;
-}
-
 .my-card-vertical {
+    border: none;
     width: 100%;
     flex-direction: row;
 }
@@ -494,10 +393,11 @@ a:hover {
 .my-card-img {
     height: 13.5rem;
     width: 24rem;
+    border-radius: 5px;
 }
 
 .my-navbar {
-    background: transparent !important;
+    background-color: #d2d2d296 !important;
 }
 
 .my-navbar-collapse {
@@ -515,9 +415,9 @@ a:hover {
 }
 
 .my-home-panel {
+    background: linear-gradient(70deg, #7a8e9f 0%, rgba(122,142,159,0.7) 40%, #7a8e9f 100%);
     height: 34rem;
     width: 100%;
-    background-color: #7a8e9f;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -579,6 +479,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-right: 4rem;
 }
 
 .my-intro-title {
@@ -624,4 +525,24 @@ a:hover {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body {
+    padding: 2rem !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+#projects-welc {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
 }
