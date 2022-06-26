@@ -26,6 +26,8 @@ projectsNavBar.onclick = () => {
 
 window.onload = () => {
     homePage.style.removeProperty('display')
+    homeNavBar.style.borderBottom = '2px solid white'
+    projectsNavBar.style.borderBottom = 'none'
 }
 
 const image7 = document.getElementById('project-image-7')
