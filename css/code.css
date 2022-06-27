@@ -19,7 +19,6 @@ body {
 }
 
 .navbar {
-    /* background-color: var(--bs-gray-300) !important; */
     grid-column: 1/11;
     grid-row: 1/2;
 }
@@ -111,11 +110,6 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-
-/* img {
-    width: 2rem;
-    height: 2rem;
-} */
 
 #mes-tran {
     font-size: 10px;
